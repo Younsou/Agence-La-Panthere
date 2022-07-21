@@ -47,6 +47,9 @@ a:hover {
 .bloc-lg {
     padding: 100px 50px;
 }
+.bloc-lg-2 {
+    padding: 145px 50px;
+}
 
 .bloc-md {
     padding: 50px;
@@ -744,7 +747,6 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
     margin-top: 50px;
 }
 
@@ -983,6 +985,9 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+    }
+    .bloc-lg-2 {
+        padding: 85px 0;
     }
     .bloc-sm,
     .bloc-md {

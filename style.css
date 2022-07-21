@@ -776,6 +776,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.789);
 }
 
 .btn-atomic-tangerine {
@@ -901,6 +902,7 @@ h4 {
     h5,
     h6,
     p,
+    a,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;

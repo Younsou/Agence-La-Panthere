@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -104,58 +105,62 @@ a:hover {
     background-attachment: fixed;
 }
 
-button:hover {
+.d-bloc {
+    color: rgba(255, 255, 255, .7);
+}
+
+.d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
 
-.icon-round,
-.icon-square,
-.icon-rounded,
-.icon-semi-rounded-a,
-.icon-semi-rounded-b {
+.d-bloc .icon-round,
+.d-bloc .icon-square,
+.d-bloc .icon-rounded,
+.d-bloc .icon-semi-rounded-a,
+.d-bloc .icon-semi-rounded-b {
     border-color: rgba(255, 255, 255, .9);
 }
 
-.divider-h span {
+.d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.a-btn,
-.navbar a,
-.navbar-brand,
-a .icon-sm,
-a .icon-md,
-a .icon-lg,
-a .icon-xl,
-h3 a,
-h4 a,
-h5 a,
-h6 a,
-p a {
+.d-bloc .a-btn,
+.d-bloc .navbar a,
+.d-bloc .navbar-brand,
+.d-bloc a .icon-sm,
+.d-bloc a .icon-md,
+.d-bloc a .icon-lg,
+.d-bloc a .icon-xl,
+.d-bloc h3 a,
+.d-bloc h4 a,
+.d-bloc h5 a,
+.d-bloc h6 a,
+.d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
 
-.a-btn:hover,
-.navbar a:hover,
-.navbar-brand:hover,
-a:hover .icon-sm,
-a:hover .icon-md,
-a:hover .icon-lg,
-a:hover .icon-xl,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover,
-p a:hover {
+.d-bloc .a-btn:hover,
+.d-bloc .navbar a:hover,
+.d-bloc .navbar-brand:hover,
+.d-bloc a:hover .icon-sm,
+.d-bloc a:hover .icon-md,
+.d-bloc a:hover .icon-lg,
+.d-bloc a:hover .icon-xl,
+.d-bloc h3 a:hover,
+.d-bloc h4 a:hover,
+.d-bloc h5 a:hover,
+.d-bloc h6 a:hover,
+.d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-.navbar-toggle .icon-bar {
+.d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
 
-.btn-wire,
-.btn-wire:hover {
+.d-bloc .btn-wire,
+.d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }

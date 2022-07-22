@@ -92,7 +92,10 @@ a:hover {
     left: 0;
     right: 0;
 }
-
+.image-resize-mode{
+    width: 130px;
+    height: auto;
+}
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;

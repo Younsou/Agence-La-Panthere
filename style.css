@@ -132,8 +132,6 @@ a:hover {
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
@@ -149,8 +147,6 @@ a:hover {
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
@@ -689,11 +685,6 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {

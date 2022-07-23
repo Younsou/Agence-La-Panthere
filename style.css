@@ -360,7 +360,7 @@ a:hover {
     z-index: 2;
 }
 
-@media all and (min-width: 768px) {
+@media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -814,7 +814,7 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
-@media all and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -828,7 +828,7 @@ h4 {
     }
 }
 
-@media all and (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
     }
@@ -849,7 +849,7 @@ h4 {
     }
 }
 
-@media all and (max-width: 991px) {
+@media (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -872,7 +872,7 @@ h4 {
     }
 }
 
-@media all and (max-width: 767px) {
+@media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1011,14 +1011,14 @@ h4 {
     }
 }
 
-@media all and (max-width: 400px) {
+@media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media all and (max-width: 767px) {
+@media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }

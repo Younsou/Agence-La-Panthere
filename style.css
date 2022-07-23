@@ -92,8 +92,8 @@ a:hover {
     right: 0;
 }
 .image-resize-mode{
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
 }
 .texture-paper::before {
     background: url("img/texture-paper.webp");
@@ -735,8 +735,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    height: 270px;
-    width: 270px;
+    height: auto;
+    width: auto;
 }
 
 .portfolio-row {

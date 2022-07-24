@@ -92,8 +92,8 @@ a:hover {
     right: 0;
 }
 .image-resize-mode{
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
 }
 .texture-paper::before {
     background: url("img/texture-paper.webp");
@@ -359,6 +359,10 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .image-resize-mode{
+        width: 120px;
+        height: 120px;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;

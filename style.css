@@ -92,8 +92,8 @@ a:hover {
     right: 0;
 }
 .image-resize-mode{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
 }
 .texture-paper::before {
     background: url("img/texture-paper.webp");
@@ -679,15 +679,6 @@ p {
     margin: auto auto auto auto;
 }
 
-.cta-hero {
-    margin-top: 22px;
-    color: #FFFFFF!important;
-    text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
-}
-
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -768,6 +759,11 @@ h4 {
 .btn-atomic-tangerine {
     background: #f47e0f;
     color: #FFFFFF!important;
+    margin-top: 22px;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .btn-atomic-tangerine:hover {

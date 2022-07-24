@@ -360,8 +360,8 @@ a:hover {
 
 @media (min-width: 768px) {
     .image-resize-mode{
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
     }
     .site-navigation {
         position: absolute;

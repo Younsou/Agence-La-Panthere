@@ -1,0 +1,64 @@
+#-----------------------
+# Config
+#-----------------------
+
+# Le serveur doit suivre des liens symboliques:
+Options +FollowSymlinks
+
+# Activation du module de réécriture d'url
+RewriteEngine on
+
+#---------------------------
+# Règles de réécriture d'url
+#---------------------------
+
+RewriteRule ^Contact$ Agence-La-Panthere/page2.html [L]
+
+# BEGIN Cache-Control Headers
+<IfModule mod_headers.c>
+<FilesMatch "\.(ico|webp|svg|woff|woff2|gif|swf|css|gz)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+<FilesMatch "\.(js)$">
+Header set Cache-Control "max-age=2592000, private"
+</FilesMatch>
+<filesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=7200, public"
+</filesMatch>
+# Enleve le cache pour les ressources dynamiques
+<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+Header unset Cache-Control
+</FilesMatch>
+</IfModule>
+# END Cache-Control Headers
+
+# BEGIN Expires Headers
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType …img/agence-la-panthere.webp "access plus 1 year"
+ExpiresByType …fonts/fontawesome-webfont.woff2 "access plus 1 year"
+ExpiresByType …img/texture-paper.webp "access plus 1 year"
+ExpiresByType …fonts/et-line.woff "access plus 1 year"
+ExpiresByType …img/image-de-presentation.webp "access plus 1 year"
+ExpiresByType …js/jquery-2.1.0.js "access plus 1 month"
+ExpiresByType …img/4.webp "access plus 1 year"
+ExpiresByType …css/bootstrap.css "access plus 1 month"
+ExpiresByType …img/logo.webp "access plus 1 year"
+ExpiresByType …img/3.webp "access plus 1 year"
+ExpiresByType …img/1.webp "access plus 1 year"
+ExpiresByType …img/2.webp "access plus 1 year"
+ExpiresByType …js/gmaps.js "access plus 1 month"
+ExpiresByType …js/bootstrap.js "access plus 1 month"
+ExpiresByType …img/agence-la-panthere-monochrome.svg "access plus 1 year"
+ExpiresByType …css/font-awesome.css "access plus 1 month"
+ExpiresByType …js/jquery.touchSwipe.js "access plus 1 month"
+ExpiresByType /Agence-La-Panthere/style.css "access plus 1 month"
+ExpiresByType …js/blocs.js "access plus 1 month"
+ExpiresByType …css/et-line.css "access plus 1 month"
+ExpiresByType …img/lines-h2-bg.webp "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType text/css "access plus 1 month"
+ExpiresDefault "access plus 2 days"
+</IfModule>
+# END Expires Headers

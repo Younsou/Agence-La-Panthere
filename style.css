@@ -225,7 +225,6 @@ a:hover {
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
-.l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
 .l-bloc h4 a,
@@ -243,7 +242,6 @@ a:hover {
 .l-bloc a:hover .icon-md,
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
 .l-bloc h4 a:hover,
@@ -628,7 +626,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 50px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -637,7 +635,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -715,7 +712,9 @@ h3 {
 }
 
 h1 {
-    color: #df720c!important;
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #f47e0f!important;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.789);
 }
 
@@ -1010,10 +1009,13 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 402px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .snapshot-lb .modal-body {
+        padding-bottom: 75px;
     }
 }
 
